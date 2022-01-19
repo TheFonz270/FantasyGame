@@ -1,4 +1,14 @@
 package players.fighters;
 
-public class Soldier {
+import behaviours.IWeapon;
+
+public class Soldier extends Fighter{
+
+    public Soldier(String name, IWeapon weapon){
+        super(name, weapon);
+    }
+
+    public void disciplinedAttack(){
+
+    }
 }
