@@ -9,9 +9,4 @@ public class Imp extends Familiars implements IDefend {
         super(name, hp);
     }
 
-    @Override
-    public void defend() {
-
-    }
-
 }

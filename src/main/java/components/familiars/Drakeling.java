@@ -7,9 +7,4 @@ public class Drakeling extends Familiars implements IDefend {
     public Drakeling(String name, int hp){
         super(name, hp);
     }
-
-    @Override
-    public void defend() {
-
-    }
 }

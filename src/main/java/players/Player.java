@@ -10,4 +10,11 @@ public abstract class Player {
         this.hp = 100;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getHp() {
+        return hp;
+    }
 }

@@ -1,6 +1,8 @@
 package components.familiars;
 
-public abstract class Familiars {
+import behaviours.IDefend;
+
+public abstract class Familiars implements IDefend {
 
     private String name;
     private int hp;
@@ -10,4 +12,15 @@ public abstract class Familiars {
         this.hp = hp;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public void defend(int attack){
+        this.hp -= attack;
+    }
 }
